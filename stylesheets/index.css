@@ -1,0 +1,36 @@
+.clock {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 40px;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.clock h1 {
+  margin-bottom: 15px;
+}
+
+.clock-elements {
+  padding: 15px;
+  position: absolute;
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  background-color:lightgreen;
+}
+
+.clock-time, .clock-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tabs{
+  text-align: center;
+  display: inline;
+  margin-top: 40%;
+}
+
+.tab{
+}
+
